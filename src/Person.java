@@ -22,9 +22,7 @@ public class Person implements Comparable{
     }
 
 
-    public Person(String column) {
 
-    }
     @Override
     public String toString() {
         return String.format("%s %s is from %s", first_name, last_name, country);
